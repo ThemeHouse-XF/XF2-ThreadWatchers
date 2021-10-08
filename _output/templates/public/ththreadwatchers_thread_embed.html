@@ -1,0 +1,11 @@
+<li>
+	<xf:fa icon="fa-eye" title="{{ phrase('ththreadwatchers_watchers')|for_attr }}" />
+	<span class="u-srOnly">{{ phrase('ththreadwatchers_watchers') }}</span>
+
+	<xf:if is="$xf.visitor.hasPermission('forum', 'ththreadwatchers_view')">
+		<a href="{{ link('threads/th-watchers', $thread) }}"
+		   data-xf-click="overlay" class="u-concealed">{$thread.Watch.count()|number}</a>
+		<xf:else />
+		{$thread.Watch.count()|number}
+	</xf:if>
+</li>

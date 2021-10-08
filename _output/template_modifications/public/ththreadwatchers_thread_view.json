@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Add thread viewer number.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$xf.options.enableTagging",
+    "replace": "<xf:include template=\"ththreadwatchers_thread_embed\" />\n$0"
+}

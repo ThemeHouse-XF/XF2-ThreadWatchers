@@ -1,0 +1,20 @@
+{
+    "permission.forum_ththreadwatchers_view.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "b939ae0c1cd6a9c1d0aa64fb0a5a393e"
+    },
+    "ththreadwatchers_members_watching_x.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "8ec44e67d68116e7277c7f2f6217d5b7"
+    },
+    "ththreadwatchers_watchers.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "c2d2730b00d3313ec59b1c7ee126c2a9"
+    }
+}

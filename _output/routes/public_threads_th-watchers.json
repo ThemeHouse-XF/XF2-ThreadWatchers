@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "threads",
+    "sub_name": "th-watchers",
+    "format": ":int<thread_id,title>/th-watchers",
+    "build_class": "",
+    "build_method": "",
+    "controller": "XF:Thread",
+    "context": "forums",
+    "action_prefix": "ThWatchers"
+}
